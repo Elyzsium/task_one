@@ -11,7 +11,7 @@ export const getInfo = (req: Request, res: Response, next: NextFunction): void =
         const now: Date = new Date();
         const utcTime: string = now.toISOString();
 
-        const github_file_url: string = "";
+        const github_file_url: string = "https://github.com/Elyzsium/task_one/tree/main";
         const github_repo_url: string = "https://github.com/Elyzsium/task_one.git";
 
         const response_data = {
